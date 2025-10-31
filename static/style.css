@@ -35,18 +35,49 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* HERO SECTION */
+/* Hero Section */
 .hero {
   text-align: center;
-  padding: 6rem 1rem;
-  background: linear-gradient(to right, #004aad, #0077ff);
-  color: #fff;
+  padding: 120px 20px;
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+/* Headline */
 .hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+  font-size: 3rem;
+  margin-bottom: 20px;
 }
+
+/* Paragraph */
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 40px;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+/* Button */
+.hero .btn {
+  display: inline-block;
+  background-color: #f39c12;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+  background-color: #e67e22;
+}
+
 
 .btn {
   background-color: #fff;

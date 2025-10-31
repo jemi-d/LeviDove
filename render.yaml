@@ -1,0 +1,10 @@
+# render.yaml
+services:
+  - type: web
+    name: levdove-website
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11
